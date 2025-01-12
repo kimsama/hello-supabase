@@ -1,4 +1,4 @@
-# Coolify에서 Supabase 설치 및 Node.js 앱 연동 가이드
+# Self-hosted Supabase와 Node.js 앱 연동 가이드
 
 ## 1. Supabase 키 설명
 
@@ -19,7 +19,7 @@ Supabase를 설치하면 다음과 같은 주요 키들이 생성됩니다:
   - JWT 토큰 생성 및 검증에 사용
   - 인증 서비스에서 사용하는 비밀 키
 
-## 2. Coolify에서 Supabase URL과 Service Key 찾기
+## 2.로컬에서 Supabase URL과 Service Key 찾기
 
 ### Docker 컨테이너 확인
 먼저 실행 중인 Supabase 관련 컨테이너들을 확인합니다:
